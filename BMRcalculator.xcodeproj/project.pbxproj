@@ -12,6 +12,8 @@
 		9D3CE1D21CB335FD0026BD1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D3CE1D01CB335FD0026BD1B /* Main.storyboard */; };
 		9D3CE1D41CB335FD0026BD1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D3CE1D31CB335FD0026BD1B /* Assets.xcassets */; };
 		9D3CE1D71CB335FD0026BD1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D3CE1D51CB335FD0026BD1B /* LaunchScreen.storyboard */; };
+		9D3CE1DF1CB336690026BD1B /* BMR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CE1DE1CB336690026BD1B /* BMR.swift */; };
+		9D3CE1E11CB338050026BD1B /* activity.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D3CE1E01CB338050026BD1B /* activity.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9D3CE1D31CB335FD0026BD1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D3CE1D61CB335FD0026BD1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D3CE1D81CB335FD0026BD1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D3CE1DE1CB336690026BD1B /* BMR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMR.swift; sourceTree = "<group>"; };
+		9D3CE1E01CB338050026BD1B /* activity.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = activity.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 			children = (
 				9D3CE1CC1CB335FD0026BD1B /* AppDelegate.swift */,
 				9D3CE1CE1CB335FD0026BD1B /* ViewController.swift */,
+				9D3CE1DE1CB336690026BD1B /* BMR.swift */,
 				9D3CE1D01CB335FD0026BD1B /* Main.storyboard */,
 				9D3CE1D31CB335FD0026BD1B /* Assets.xcassets */,
 				9D3CE1D51CB335FD0026BD1B /* LaunchScreen.storyboard */,
+				9D3CE1E01CB338050026BD1B /* activity.plist */,
 				9D3CE1D81CB335FD0026BD1B /* Info.plist */,
 			);
 			path = BMRcalculator;
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D3CE1D71CB335FD0026BD1B /* LaunchScreen.storyboard in Resources */,
+				9D3CE1E11CB338050026BD1B /* activity.plist in Resources */,
 				9D3CE1D41CB335FD0026BD1B /* Assets.xcassets in Resources */,
 				9D3CE1D21CB335FD0026BD1B /* Main.storyboard in Resources */,
 			);
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D3CE1CF1CB335FD0026BD1B /* ViewController.swift in Sources */,
+				9D3CE1DF1CB336690026BD1B /* BMR.swift in Sources */,
 				9D3CE1CD1CB335FD0026BD1B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
